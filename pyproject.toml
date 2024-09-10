@@ -14,7 +14,7 @@ authors = ["Matt Mulligan <matt@mattmulligan.net>"]
 readme = "README.rst"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 pyapp = "~= 4.15"
 rich = "~= 13.7"
 
@@ -29,7 +29,7 @@ nox = "== 2024.4.15"
 # RUFF CONFIGURATION
 
 [tool.ruff]
-target-version = "py312"
+target-version = "py310"
 line-length = 120  # black uses 88 but thats too short
 indent-width = 4
 
@@ -69,7 +69,7 @@ line-ending = "auto"
 # MYPY CONFIGURATION
 
 [tool.mypy]
-python_version = "3.12"
+python_version = "3.10"
 
 # enforce typing
 check_untyped_defs = true  # mypy to still check methods/funcs without type hints
