@@ -1,0 +1,34 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-lint
+        name: "Ruff: Linting Rules"
+        entry: poetry run ruff check
+        args: [ --fix ]
+        language: system
+        types: [ python ]
+        require_serial: true
+        files: ^(src|tests)/.+\.py
+
+      - id: ruff-format
+        name: "Ruff: Formatting Rules"
+        entry: poetry run ruff format
+        language: system
+        types: [ python ]
+        require_serial: true
+        files: ^(src|tests)/.+\.py
+
+      - id: mypy
+        name: "MyPy: Type Checking"
+        entry: poetry run mypy
+        language: system
+        types: [ python ]
+        require_serial: true
+        files: ^src/.+\.py
+
+      - id: pytest
+        name: "Pytest: Unit Tests"
+        entry: poetry run pytest ./tests/unit
+        language: system
+        types: [ python ]
+        require_serial: true
