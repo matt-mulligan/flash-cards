@@ -17,6 +17,7 @@ readme = "README.rst"
 python = "^3.10"
 pyapp = "~= 4.15"
 rich = "~= 13.7"
+sqlalchemy = "~2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "~= 8.2"
