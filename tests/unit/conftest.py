@@ -1,12 +1,12 @@
 """Pytest Configuration File."""
 
+import sys
 from pathlib import Path
 
-from pytest import fixture
+import pyapp.conf
 
 HERE = Path(__file__).absolute()
+SRC_PATH = HERE.parent.parent / "src"
+sys.path.insert(0, SRC_PATH.as_posix())
 
-
-@fixture
-def fixture_path():
-    return HERE.parent.parent / "fixtures"
+pyapp.conf.settings.configure("flash_cards.default_settings")

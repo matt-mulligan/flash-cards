@@ -25,3 +25,10 @@ repos:
         types: [ python ]
         require_serial: true
         files: ^src/.+\.py
+
+      - id: pytest
+        name: "Pytest: Unit Tests"
+        entry: poetry run pytest ./tests/unit
+        language: system
+        types: [ python ]
+        require_serial: true
