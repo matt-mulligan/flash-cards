@@ -1,0 +1,845 @@
+{
+  "type": "QuestionSets",
+  "question_sets": [
+    {
+      "type": "QuestionSet",
+      "name": "Questions",
+      "categories": [
+        "Vocabulary"
+      ],
+      "questions": [
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wie' to English",
+          "answer": "How",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Was' to English",
+          "answer": "What",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wann' to English",
+          "answer": "When",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Warum' to English",
+          "answer": "Why",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wer' to English",
+          "answer": "Who",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wie geht's?' to English",
+          "answer": "How is it going?",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Mir geht's gut' to English",
+          "answer": "I'm doing well",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wie heißt du?' to English",
+          "answer": "What is your name?",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Kennst du?' to English",
+          "answer": "Do you know?",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'How' to German",
+          "answer": "Wie",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'What' to German",
+          "answer": "Was",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'When' to German",
+          "answer": "Wann",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Why' to German",
+          "answer": "Warum",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Who' to German",
+          "answer": "Wer",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'How is it going?' to German",
+          "answer": "Wie geht's?",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'I'm doing well' to German",
+          "answer": "Mir geht's gut",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'What is your name?' to German",
+          "answer": "Wie heißt du?",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Do you know?' to German",
+          "answer": "Kennst du?",
+          "strictness": "strict"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "QuestionSet",
+      "name": "Places",
+      "categories": ["Vocabulary"],
+      "questions": [
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Das Cafe' to English",
+          "answer": "The Cafe",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Die Kneipe' to English",
+          "answer": "The Pub",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Das Restaurant' to English",
+          "answer": "The Restaurant",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Das Stadium' to English",
+          "answer": "The Stadium",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Der Sportplatz' to English",
+          "answer": "The Sporting Grounds",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Der Laden' to English",
+          "answer": "The Shop",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Das Geschäft' to English",
+          "answer": "The Shop",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Der Strand' to English",
+          "answer": "The Beach",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Der Wald' to English",
+          "answer": "The Forest",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Die Berge' to English",
+          "answer": "The Mountains",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Der Urlaub' to English",
+          "answer": "The Vacation",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Das Kino' to English",
+          "answer": "The Cinema",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Cafe' to German",
+          "answer": "Das Cafe",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Pub' to German",
+          "answer": "Die Kneipe",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Restaurant' to German",
+          "answer": "Das Restaurant",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Stadium' to German",
+          "answer": "Das Stadium",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Sporting Grounds' to German",
+          "answer": "Der Sportplatz",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Shop' to German (starting with L)",
+          "answer": "Der Laden",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Shop' to German (starting with G)",
+          "answer": "Das Geschäft",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Beach' to German",
+          "answer": "Der Strand",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Forest' to German",
+          "answer": "Der Wald",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Mountains' to German",
+          "answer": "Die Berge",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Vacation' to German",
+          "answer": "Der Urlaub",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'The Cinema' to German",
+          "answer": "Das Kino",
+          "strictness": "strict"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "QuestionSet",
+      "name": "Pronouns",
+      "categories": [
+        "Verbs",
+        "Conjugation"
+      ],
+      "questions": [
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Ich'",
+          "answer": "I - First Person - Singular",
+          "incorrect_answers": [
+            "You - Second Person - Singular",
+            "He - Third Person - Singular",
+            "She - Third Person - Singular",
+            "It - Third Person - Singular",
+            "We - First Person - Plural",
+            "You - Second Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Du'",
+          "answer": "You - Second Person - Singular",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "He - Third Person - Singular",
+            "She - Third Person - Singular",
+            "It - Third Person - Singular",
+            "We - First Person - Plural",
+            "You - Second Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Er'",
+          "answer": "He - Third Person - Singular",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "You - Second Person - Singular",
+            "She - Third Person - Singular",
+            "It - Third Person - Singular",
+            "We - First Person - Plural",
+            "You - Second Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Sie' (Singular)",
+          "answer": "She - Third Person - Singular",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "You - Second Person - Singular",
+            "He - Third Person - Singular",
+            "It - Third Person - Singular",
+            "We - First Person - Plural",
+            "You - Second Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Es'",
+          "answer": "It - Third Person - Singular",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "You - Second Person - Singular",
+            "He - Third Person - Singular",
+            "She - Third Person - Singular",
+            "We - First Person - Plural",
+            "You - Second Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Wir'",
+          "answer": "We - First Person - Plural",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "You - Second Person - Singular",
+            "He - Third Person - Singular",
+            "She - Third Person - Singular",
+            "It - Third Person - Singular",
+            "You - Second Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Ihr'",
+          "answer": "You - Second Person - Plural",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "You - Second Person - Singular",
+            "He - Third Person - Singular",
+            "She - Third Person - Singular",
+            "It - Third Person - Singular",
+            "We - First Person - Plural",
+            "They - Third Person - Plural"
+          ]
+        },
+        {
+          "type": "MultiChoiceQuestion",
+          "prompt": "Which pronoun is represented by 'Sie' (Plural)",
+          "answer": "They - Third Person - Plural",
+          "incorrect_answers": [
+            "I - First Person - Singular",
+            "You - Second Person - Singular",
+            "He - Third Person - Singular",
+            "She - Third Person - Singular",
+            "It - Third Person - Singular",
+            "We - First Person - Plural",
+            "You - Second Person - Plural"
+          ]
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'I - First Person - Singular'",
+          "answer": "Ich",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'You - Second Person - Singular'",
+          "answer": "Du",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'He - Third Person - Singular'",
+          "answer": "Er",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'She - Third Person - Singular'",
+          "answer": "Sie",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'It - Third Person - Singular'",
+          "answer": "Es",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'We - First Person - Plural'",
+          "answer": "Wir",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'You - Second Person - Plural'",
+          "answer": "Ihr",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Spell the pronoun that represents 'They - Third Person - Plural'",
+          "answer": "Sie",
+          "strictness": "strict"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "QuestionSet",
+      "name": "Regular Endings",
+      "categories": [
+        "Verbs",
+        "Conjugation"
+      ],
+      "questions": [
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the ending of regular conjugated verbs in **FIRST PERSON SINGULAR FORM**",
+          "answer": "e",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the ending of regular conjugated verbs in **SECOND PERSON SINGULAR FORM**",
+          "answer": "st",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the ending of regular conjugated verbs in **THIRD PERSON SINGULAR FORM**",
+          "answer": "t",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the ending of regular conjugated verbs in **FIRST PERSON PLURAL FORM**",
+          "answer": "en",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the ending of regular conjugated verbs in **SECOND PERSON PLURAL FORM**",
+          "answer": "t",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the ending of regular conjugated verbs in **THIRD PERSON PLURAL FORM**",
+          "answer": "en",
+          "strictness": "strict"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "QuestionSet",
+      "name": "Machen (to do)",
+      "categories": [
+        "Verbs",
+        "Conjugation"
+      ],
+      "questions": [
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the **INFINITIVE** version of 'to do' in German",
+          "answer": "machen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'I do' to German",
+          "answer": "Ich mache",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'You do' (Singular) to German",
+          "answer": "Du machst",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'He do' to German",
+          "answer": "Er macht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'She do' to German",
+          "answer": "Sie macht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'It do' to German",
+          "answer": "Es macht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'We do' to German",
+          "answer": "Wir machen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'You do' (Plural) to German",
+          "answer": "Ihr macht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'They do' to German",
+          "answer": "Sie machen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Ich mache' to English",
+          "answer": "I do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Du machst' to English",
+          "answer": "You do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Er macht' to English",
+          "answer": "He do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Sie macht' to English",
+          "answer": "She do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Es macht' to English",
+          "answer": "It do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wir machen' to English",
+          "answer": "We do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Ihr macht' to English",
+          "answer": "You do",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Sie machen' to English",
+          "answer": "They do",
+          "strictness": "strict"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "QuestionSet",
+      "name": "Gehen (Going)",
+      "categories": [
+        "Verbs",
+        "Conjugation"
+      ],
+      "questions": [
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the **INFINITIVE** version of 'going'",
+          "answer": "gehen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'I am going' to German",
+          "answer": "Ich gehe",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'You are going' (Singular) to German",
+          "answer": "Du gehst",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'He is going' to German",
+          "answer": "Er geht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'She is going' to German",
+          "answer": "Sie geht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'It is going' to German",
+          "answer": "Es geht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'We are going' to German",
+          "answer": "Wir gehen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'You are going' (Plural) to German",
+          "answer": "Ihr geht",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'They are going' to German",
+          "answer": "Sie gehen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Ich gehe' to English",
+          "answer": "I am going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Du gehst' to English",
+          "answer": "You are going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Er geht' to English",
+          "answer": "He is going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Sie geht' to English",
+          "answer": "She is going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Es geht' to English",
+          "answer": "It is going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wir gehen' to English",
+          "answer": "We are going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Ihr geht' to English",
+          "answer": "You are going",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Sie gehen' to English",
+          "answer": "They are going",
+          "strictness": "strict"
+        }
+      ]
+    },
+
+
+
+    {
+      "type": "QuestionSet",
+      "name": "Schlafen (to sleep)",
+      "categories": [
+        "Verbs",
+        "Conjugation"
+      ],
+      "questions": [
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "What is the **INFINITIVE** version of 'sleeping'",
+          "answer": "schlafen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'I am sleeping' to German",
+          "answer": "Ich schlafe",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'You are sleeping' (Singular) to German",
+          "answer": "Du schläfst",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'He is sleeping' to German",
+          "answer": "Er schläft",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'She is sleeping' to German",
+          "answer": "Sie schläft",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'It is sleeping' to German",
+          "answer": "Es schläft",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'We are sleeping' to German",
+          "answer": "Wir schlafen",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'You are sleeping' (Plural) to German",
+          "answer": "Ihr schlaft",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'They are sleeping' to German",
+          "answer": "Sie schlafen",
+          "strictness": "strict"
+        },
+
+
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Ich schlafe' to English",
+          "answer": "I am sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Du schläfst' to English",
+          "answer": "You are sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Er schläft' to English",
+          "answer": "He is sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Sie schläft' to English",
+          "answer": "She is sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Es schläft' to English",
+          "answer": "It is sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Wir schlafen' to English",
+          "answer": "We are sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Ihr schlaft' to English",
+          "answer": "You are sleeping",
+          "strictness": "strict"
+        },
+        {
+          "type": "FreeTextQuestion",
+          "prompt": "Translate 'Sie schlafen' to English",
+          "answer": "They are sleeping",
+          "strictness": "strict"
+        }
+      ]
+    }
+  ]
+}

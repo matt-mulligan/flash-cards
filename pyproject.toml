@@ -17,7 +17,7 @@ readme = "README.rst"
 python = "^3.10"
 pyapp = "~= 4.15"
 rich = "~= 13.7"
-sqlalchemy = "~2.0"
+odin = "~2.10"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "~= 8.2"
@@ -56,6 +56,9 @@ select = [
     "S101",  # Use of assert detected
     "D",  # Docstrings
 ]
+"src/flash_cards/cli.py" = [
+    "UP007",  # stops updating Optional to | None
+]
 
 [tool.ruff.format]
 # Like Black, use double quotes for strings.
@@ -89,4 +92,17 @@ warn_unused_ignores = true  # mypy warning if an "ignore" isn't requried anymore
 
 [[tool.mypy.overrides]]
 module = "flash_cards.cli"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "flash_cards.schema.*"
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = "flash_cards.io"
+ignore_errors = true
+
+
+[[tool.mypy.overrides]]
+module = "flash_cards.engine.*"
 ignore_errors = true
