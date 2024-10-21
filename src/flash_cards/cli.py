@@ -9,7 +9,7 @@ from typing import Optional
 from pyapp.app import CliApplication, argument
 
 from flash_cards.default_settings import AppSettings
-from flash_cards.engine import ConsoleGameEngine
+from flash_cards.engine.console import ConsoleGameEngine
 from flash_cards.io import add_question_sets_to_store
 
 app = CliApplication(
@@ -38,7 +38,7 @@ def play(
 
 
 @app.command
-def stu(
+def revise(
     *,
     question_store_path: Optional[Path] = argument(  # noqa: B008
         "--question-store-path",
@@ -49,11 +49,11 @@ def stu(
         help_text="Path to flash cards games file. If not given then default path will be used",
     ),
 ):
-    """Provide a greeting."""
+    """Get feedback on the questions you struggle with."""
     question_store_path = question_store_path or AppSettings.QUESTION_STORE_PATH
     game_store_path = game_store_path or AppSettings.GAME_STORE_PATH
     game = ConsoleGameEngine(question_store_path, game_store_path)
-    game.play()
+    game.revise()
 
 
 @app.command(name="add-questions")

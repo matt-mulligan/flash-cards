@@ -62,6 +62,8 @@ def add_question_sets_to_store(store_path: Path, question_sets_path: Path):
 
 def add_game_to_store(store_path: Path, game: Game):
     """Add new game to store."""
+    game.full_clean()
+
     games = load_games(store_path) if store_path.exists() else FlashCardGames()
     games.games.append(game)
     dump_games(store_path, games)
